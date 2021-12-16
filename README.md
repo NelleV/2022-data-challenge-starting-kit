@@ -9,6 +9,7 @@ is to predict whether the protein has a certain function. You are free to use
 any approach and technique you want. 
 
 The challenge provides three sets of data:
+
     - a training dataset (data/X_train.csv, data/y_train.csv): this is what
       you should use for training your model
     - two test sets (valid, test) for which you only have the feature matrix.
@@ -27,8 +28,10 @@ to secretion systems). It is thus a classification problem.
 2. Register on the website and use this link to access the data, starting kit,
 and to submit your results.
 3. Work on the model. You are encourage to explore:
-- Various transformations of the features, 
-- Various machine learning algorithms and their hyperparameters
+
+    - Various transformations of the features, 
+    - Various machine learning algorithms and their hyperparameters
+
 4. Submit as many models as you wish, in a limit of 5 a day, to the
 leaderboard, to see their performance on the public validation set.
 5. Submit the predictions made by 2 optimized final models to the leaderboard.
@@ -66,29 +69,29 @@ January, 28th, 2022, at 23.59.
 - Please name your report file “Lastname1Initial_Lastname2Initial.pdf”
   (supposing you are a team of 2 people). If Jane Smith and Sarah Martin work
   together, their report should be named MartinS_SmithJ.pdf.
-
 - Your report should be no more than 3 pages long.
+
 
 Your report should contain the following elements:
 
-– Your full names and the name of your team name on the codalab plateform.
-– A discussion of feature processing. Did you standardize the data, chose alternative rep-
-resentations for some features, discarded other features, and why?
-no later than February 2, 2020 at 23:59.
-– The cross-validated performance, on the training data, of the algorithms you
-explored. You are strongly encouraged to explore the space of parameters for
-each of these al- gorithms. Briefly explain how you did it. Discuss which
-algorithms/parameters work best.
-– The performance, on the validation data (visible part of the leaderboard),
-of one model of each of the five families. Discuss whether the results match
-your expectations.
-– A discussion of additional models you have tried, insights you have gained
-(e.g. “This method works well but is difficult to fit” or “This method is not
-very accurate but is really fast to train”).
-– A discussion of your choice of final model(s). You can submit up to 2 final
-models. What are these models, how did you construct them, why do you expect
-them to be your best proposals?
-Include tables or figures as you see fit.
+- Your full names and the name of your team name on the codalab plateform.
+- A discussion of feature processing. Did you standardize the data, chose
+  alternative rep- resentations for some features, discarded other features,
+  and why?
+- The cross-validated performance, on the training data, of the algorithms you
+  explored. You are strongly encouraged to explore the space of parameters for
+  each of these al- gorithms. Briefly explain how you did it. Discuss which
+  algorithms/parameters work best.
+- The performance, on the validation data (visible part of the leaderboard),
+  of one model of each of the five families. Discuss whether the results match
+  your expectations.
+- A discussion of additional models you have tried, insights you have gained
+  (_e.g._, “This method works well but is difficult to fit” or “This method is
+  not very accurate but is really fast to train”).
+- A discussion of your choice of final model(s). You can submit up to 2 final
+  models. What are these models, how did you construct them, why do you expect
+  them to be your best proposals? Include tables or figures as you see fit.
+- Link to the code for the two models submitted.
 
 
 ## Final words
