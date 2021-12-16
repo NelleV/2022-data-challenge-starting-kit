@@ -23,7 +23,7 @@ X = np.loadtxt("data/protein_train.data")
 y = np.loadtxt("data/protein_train.solution")
 
 X_test = np.loadtxt("data/protein_test.data")
-X_valid = np.loadtxt("data/protein_test.data")
+X_valid = np.loadtxt("data/protein_valid.data")
 
 ###############################################################################
 # Fit and predict
