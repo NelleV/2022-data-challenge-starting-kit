@@ -5,7 +5,7 @@ Dear participants,
 the goal of this data challenge is to resolve a use case in data analysis
 which is inspired from a real scientific project (and real data in a
 simplified form). You will be given features extracted from proteins. The task
-is to predict whether the protein has a certain functione. You are free to use
+is to predict whether the protein has a certain function. You are free to use
 any approach and technique you want. 
 
 The challenge provides three sets of data:
