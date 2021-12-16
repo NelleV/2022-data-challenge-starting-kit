@@ -15,7 +15,6 @@
 # Richard and Florian Chuffard
 
 import numpy as np
-import os
 from zipfile import ZipFile
 from sklearn import linear_model
 
@@ -39,16 +38,12 @@ y_valid = log_reg.predict(X_valid)
 ###############################################################################
 # Save results
 
-try:
-    os.makedirs("submission")
-except OSError:
-    pass
-np.savetxt("submission/protein_test.predict", y_test)
-np.savetxt("submission/protein_valid.predict", y_valid)
+np.savetxt("protein_test.predict", y_test, fmt="%d")
+np.savetxt("protein_valid.predict", y_valid, fmt="%d")
 
 zip_obj = ZipFile('submission.zip', 'w')
-zip_obj.write("submission/protein_test.predict")
-zip_obj.write("submission/protein_valid.predict")
+zip_obj.write("protein_test.predict")
+zip_obj.write("protein_valid.predict")
 
 zip_obj.close()
 
